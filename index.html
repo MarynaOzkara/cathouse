@@ -6,17 +6,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Котодім</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-
+    <header class="header container">
+        <a href="index.html" class="logo-link link">
+            <img src="./img/cat.svg" alt="логотип сайту" width="24" height="24">
+            Котодім
+        </a>
+        <nav class="heder-navigation">
+            <ul class="navigation-list list">
+                <li class="navigation-list-item"><a href="" class="navigation-link link">Обрати котика</a></li>
+                <li class="navigation-list-item"><a href="" class="navigation-link link">Задонатити котикам</a></li>
+                <li class="navigation-list-item"><a href="" class="navigation-link link">Контакти</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        
+        <div class="hero container">
+            <section class="greating">
+                <h1 class="hero-title">Привіт, людино</h1>
+                <p class="hero-description">Бракує в житті шовкових лапок, м’якенького пухнастого животика, теплого муррркотіння й веселого розгардіяшу? <br> Візьми собі котика.</p>
+            </section>
+        </div>
+        <section class="cat-catalog container">
+            <h2 class="title">Ці друзяки готові приймати твою любов і піклування</h2>
+            <ul class="cat-catalog-list list">
+                <li class="cat-catalog-item">
+                    <img src="./img/cat-catalog/barbaris.jpg" alt="барбарис" class="cat-catalog-img" width="288" height="360">
+                    <div class="catalog-item-wrap">
+                        <h3 class="cat-catalog-subtitle">Барбарис</h3>
+                        <p class="cat-catalog-description">Хижий для ворогів, ласкавий та м’якесенький до своїх.</p>
+                    </div>
+                </li>
+                <li class="cat-catalog-item">
+                    <img src="./img/cat-catalog/mishka.jpg" alt="мишка" class="cat-catalog-img" width="288" height="360">
+                    <div class="catalog-item-wrap">
+                        <h3 class="cat-catalog-subtitle">Мишка</h3>
+                        <p class="cat-catalog-description">Киця з роду котів-талісманів. Несе удачу та затишок в дім</p>
+                    </div>
+                </li>
+                <li class="cat-catalog-item">
+                    <img src="./img/cat-catalog/kapitan.jpg" alt="капітан" class="cat-catalog-img" width="288" height="360">
+                    <div class="catalog-item-wrap">
+                        <h3 class="cat-catalog-subtitle">Капітан</h3>
+                        <p class="cat-catalog-description">Всюди головний. Підкорить тебе, але ти будеш щасливий.</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="cat-gallery container">
+            <h2 class="gallery-title">Котики, які вже знайшли сім’ю</h2>
+            <p class="gallery-description">Ти тільки поглянь, скільки ніжності! <br>
+                На місці цих задоволених людей можеш бути ти.</p>
+            <ul class="cat-gallery-list list">
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/1.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/2.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/3.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/4.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/5.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/6.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/7.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/8.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/9.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/10.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/11.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item"><img src="./img/cat-gallery/12.jpg" alt="зображення галереї"></li>
+            </ul>
+        </section>
     </main> 
-    <footer>
-        
+    <footer class="footer">
+        <div class="container flex">
+            <p class="footer-text">
+                <img src="./img/cat.svg" alt="логотип сайту" width="24" height="24">
+                Котики — то щастя. <br> Забирай, люби й ставай щасливішим.
+            </p>
+            <div class="social">
+                <p class="soc-title">Соцмережі</p>
+                <ul class="footer-soc-list list">
+                    <li class="footer-soc-item">
+                        <a href="" class="footer-soc-link link">
+                            <svg class="footer-soc-icon" width="16" height="16">
+                                <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item">
+                        <a href="" class="footer-soc-link link">
+                            <svg class="footer-soc-icon" width="16" height="16">
+                                <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item">
+                        <a href="" class="footer-soc-link link">
+                            <svg class="footer-soc-icon" width="16" height="16">
+                                <use href="./img/symbol-defs.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-soc-item">
+                        <a href="" class="footer-soc-link link">
+                            <svg class="footer-soc-icon" width="16" height="16">
+                                <use href="./img/symbol-defs.svg#icon-tiktok"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
