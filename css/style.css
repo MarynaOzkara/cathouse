@@ -13,9 +13,9 @@ ul{
 }
 img{
     display: block;
-    /* max-width: 100%; */
+    max-width: 100%;
     height: auto;
-    /* width: 100%; */
+    width: 100%;
 }
 address{
     font-style: normal;
@@ -30,43 +30,3 @@ button{
     text-decoration: none;
 }
 
-/* -------------SALE----------------- */
-
-.sale {
-    padding-bottom: 80px;
-}
-.title {
-    padding-bottom: 40px;
-}
-.sale-gallery {
-    display: flex;
-    gap: 20px;
-    padding-bottom: 40px;
-}
-.sale-gallery-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.list {
-}
-.sale-gallery-item {
-}
-.sale-galleri-main {
-}
-.sale-watch-title {
-}
-.sale-product {
-}
-.sale-price {
-}
-.prewie-price {
-}
-.sale-details {
-}
-.sale-description {
-}
-.sale-details-list {
-}
-.sale-details-item {
-}
