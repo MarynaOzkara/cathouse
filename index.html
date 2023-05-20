@@ -27,9 +27,41 @@
     </header>
     <main>
         <section class="hero container">
-            <div class="greating">
-                <h1 class="hero-title">Привіт, людино</h1>
-                <p class="hero-description">Бракує в житті шовкових лапок, м’якенького пухнастого животика, теплого муррркотіння й веселого розгардіяшу? <br> Візьми собі котика.</p>
+            <ul class="hero-list list">
+                <li class="hero-item first">
+                    <div class="greating">
+                        <h1 class="hero-title">Привіт, людино</h1>
+                        <p class="hero-description">Бракує в житті шовкових лапок, м’якенького пухнастого животика, теплого муррркотіння й веселого розгардіяшу? <br> Візьми собі котика.</p>
+                    </div>
+                </li>
+                <li class="hero-item second">
+                    <div class="greating">
+                        <h1 class="hero-title">Нарешті ти тут</h1>
+                        <p class="hero-description">
+                          Люди й котики разом завжди щасливіші. Тож додай у своє життя
+                          щастячка. Чекаємо тебе!<br />
+                          Візьми собі котика.
+                        </p>
+                    </div>
+                </li>
+                <li class="hero-item third">
+                    <div class="greating">
+                        <h1 class="hero-title">Котики чекають</h1>
+                        <p class="hero-description">
+                          Вибери того, що створений для тебе. Нехай сама любов муркоче
+                          тобі на вушко й торкається лапкою. <br />
+                          Візми собі котика.
+                        </p>
+                    </div>
+                </li>
+            </ul>
+            <div class="hero-buttons">
+                <button type="button" class="hero-btn next">
+                    <img src="./img/arrow-right.svg" alt="стрілка вліво" width="24" height="24">
+                </button>
+                <button type="button" class="hero-btn prev">
+                    <img src="./img/arrow-left.svg" alt="стрілка вправо" width="24" height="24">
+                </button>
             </div>
         </section>    
         <section class="cat-catalog container">
@@ -63,18 +95,66 @@
             <p class="gallery-description">Ти тільки поглянь, скільки ніжності! <br>
                 На місці цих задоволених людей можеш бути ти.</p>
             <ul class="cat-gallery-list list">
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/1.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/2.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/3.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/4.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/5.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/6.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/7.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/8.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/9.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/10.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/11.jpg" alt="зображення галереї"></li>
-                <li class="cat-gallery-item"><img src="./img/cat-gallery/12.jpg" alt="зображення галереї"></li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/1-big.jpg">
+                        <img src="./img/cat-gallery/1.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/2-big.jpg">
+                        <img src="./img/cat-gallery/2.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/3-big.jpg">
+                        <img src="./img/cat-gallery/3.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/4-big.jpg">
+                        <img src="./img/cat-gallery/4.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/5-big.jpg">
+                        <img src="./img/cat-gallery/5.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/6-big.jpg">
+                        <img src="./img/cat-gallery/6.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/7-big.jpg">
+                        <img src="./img/cat-gallery/7.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/8-big.jpg">
+                        <img src="./img/cat-gallery/8.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/9-big.jpg">
+                        <img src="./img/cat-gallery/9.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/10-big.jpg">
+                        <img src="./img/cat-gallery/10.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/11-big.jpg">
+                        <img src="./img/cat-gallery/11.jpg" alt="зображення галереї">
+                    </a>
+                </li>
+                <li class="cat-gallery-item">
+                    <a href="./img/cat-gallery/12-big.jpg">
+                        <img src="./img/cat-gallery/12.jpg" alt="зображення галереї">
+                    </a>
+                </li>
             </ul>
         </section>
     </main> 
