@@ -1,4 +1,20 @@
-const title = document.querySelector('.cats-title');
-console.log(title);
-title.classList.remove("cats-title");
-const logotype = document.querySelector('.logo-link img');
+const slider = document.querySelector(".hero-list");
+const next = document.querySelector(".next");
+const prev = document.querySelector(".prev");
+
+const mySiema = new Siema ({
+   selector: slider,
+   loop: true,
+   duration: 500,
+});
+
+function onNextClick() {
+    mySiema.next();
+}
+function onPrevClick() {
+    mySiema.prev();
+}
+next.addEventListener("click", onNextClick);
+prev.addEventListener("click", onPrevClick);
+
+const lightbox = new SimpleLightbox('.cat-gallery-list a', { /* options */ });
