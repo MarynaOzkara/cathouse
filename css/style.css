@@ -102,36 +102,36 @@ button{
     position: relative;
 }
 .first{
-    background-image: url(/img/hero-bg-1.jpg);
+    background-image: url(./img/hero-bg-1.jpg);
 }
 @media (min-device-pixel-ratio: 2),
        (min-resolution: 192dpi),
        (min-resolution: 2dppx) {
         .first {
             background-image:  
-            url(/img/hero-bg-1@2x.jpg);
+            url(./img/hero-bg-1@2x.jpg);
         }
 }
 .second{
-    background-image: url(/img/hero-bg-2.jpg);
+    background-image: url(./img/hero-bg-2.jpg);
 }
 @media (min-device-pixel-ratio: 2),
        (min-resolution: 192dpi),
        (min-resolution: 2dppx) {
         .second {
             background-image:  
-            url(/img/hero-bg-2@2x.jpg);
+            url(./img/hero-bg-2@2x.jpg);
         }
 }
 .third{
-    background-image: url(/img/hero-bg-3.jpg);
+    background-image: url(./img/hero-bg-3.jpg);
 }
 @media (min-device-pixel-ratio: 2),
        (min-resolution: 192dpi),
        (min-resolution: 2dppx) {
         .third {
             background-image:  
-            url(/img/hero-bg-3@2x.jpg);
+            url(./img/hero-bg-3@2x.jpg);
         }
 }
 .hero-btn{
